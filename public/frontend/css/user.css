@@ -1,0 +1,122 @@
+body {
+    background: rgba(128, 128, 128, 0.15);
+}
+.row.home {
+    float: right;
+}
+
+.row.head {
+    padding: 31px 0px;
+}
+
+#content>.container>.row {    padding-top: 3%;}
+  nav.navbar.navbar-default {
+      background: none;
+      border: none;
+  }
+  .sign-up-show {
+      width: 100%;
+      line-height: 21px;
+      padding: 16px;
+      background: #fff;
+  }
+  form>p {
+      color: red;
+      font-size: 13px;
+      font-weight: bold;
+  }
+  #header>.container {
+      padding: 0;
+      margin: 0;
+      height: 54px;
+      width: 100%;
+      /* box-shadow: 0px 2px 2px rgba(0,0,0,0.5); */
+      background: #144880;
+  }
+  .btnSub>input.btn.btn-default {
+    background: #CE0C77;
+    border: 0px solid gray;
+    border-radius: 0px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 8px 22px;
+}
+
+.btnSub>input.btn.btn-default:hover {
+    background: rgba(41, 45, 169, 0.64);
+}
+#content>.container>.row>.col-md-4 {
+    padding: 0;
+}
+.col-md-10>input.btn.btn-default:hover {
+    background: rgba(41, 45, 169, 0.64);
+}
+.col-md-10>input.btn.btn-default {
+    border: 0px;
+    border-radius: 0px;
+    background: #CE0C77;
+    color: white;
+    margin-top: 11px;
+    padding: 8px 37px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+h1.has_font {
+    font-size: 24px;
+}
+
+.col-md-4>p {
+    font-size: 13px;
+    padding-left: 15px;
+}
+.col-md-4 {
+    padding: 10px 10px 13px 10px;
+    line-height: 14px;
+    /* border: 1px solid gray; */
+    background: #fff;
+}
+.copyright {
+    float: right;
+    font-size:11px;
+    margin-top: 8px;
+}
+.col-md-2>input.btn.btn-default {
+    border: 0px;
+    border-radius: 0px;
+    background: #CE0C77;
+    color: white;
+    margin-top: 11px;
+    padding: 8px 19px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.col-md-2>input.btn.btn-default:hover {
+    background: rgba(41, 45, 169, 0.64);
+}
+a.btn.btn-default {}
+  img {
+      min-height: 56px;
+      max-width: 236px;
+  }
+a.btn.btn-default {
+    border-radius: 0px;
+    border: 0px;
+    font-weight: bold;
+    padding: 7px 17px;
+    color: #fff;
+    background: #0CCEB3;
+    margin-top: 10px;
+}
+
+a.btn.btn-default:hover {
+     background: rgba(31, 160, 160, 0.38);
+}
+#footer>.container>.row>.col-md-4 {
+    background: #ECECEC;
+    padding: 0px;
+}
