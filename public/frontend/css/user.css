@@ -1,0 +1,257 @@
+body {
+    background: rgba(128, 128, 128, 0.15);
+}
+.row.home {
+    float: right;
+}
+
+.row.head {
+    padding: 31px 0px;
+}
+.cart_page {
+    padding: 0px !important;
+}
+
+.back_page {
+    padding: 5px 21px;
+}
+
+.myCart {
+    padding: 5px 20px;
+}
+.quantity input {
+    width: 70%;
+    float: right;
+    border-radius: 0px;
+}
+
+.size1of5 {text-align: right;}
+.myCart h5 {
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.back_page {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.ip_left thead tr td {
+    text-transform: uppercase;
+    color: #716565;
+    padding: 5px;
+}
+
+.ip_left tbody {
+    background: #ffffff;
+}
+
+.position-relative {
+    padding: 10px;
+}
+.summary-header.mbl {
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 0px 0px 5px 0px;
+}
+
+.ip_left {
+}
+
+.summary-subtotal {
+    margin: 0px;
+}
+
+.txt-right {
+    float: right;
+}
+table.producttable {
+    width: 100%;
+}
+.summary-total.table.border-grey-top.mtm.ptm {
+    margin: 0px;
+    padding: 0px 17px 5px;
+}
+.summary-control {
+    margin: 0px;
+    padding: 0px 18px;
+}
+.txt-black {
+    margin: 0px;
+}
+.price {
+    padding: 5px;
+}
+
+.up-down-select.txt-light-black {
+    float: right;
+    padding-right: 8px;
+}
+#content>.container>.row {    padding-top: 3%;}
+  nav.navbar.navbar-default {
+      background: none;
+      border: none;
+  }
+  .sign-up-show {
+      width: 100%;
+      line-height: 21px;
+      padding: 16px;
+      background: #fff;
+  }
+  form>p {
+      color: red;
+      font-size: 13px;
+      font-weight: bold;
+  }
+  #header>.container {
+      padding: 0;
+      margin: 0;
+      height: 54px;
+      width: 100%;
+      /* box-shadow: 0px 2px 2px rgba(0,0,0,0.5); */
+      background: #144880;
+  }
+  .btnSub>input.btn.btn-default {
+    background: #CE0C77;
+    border: 0px solid gray;
+    border-radius: 0px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 8px 22px;
+}
+
+.btnSub>input.btn.btn-default:hover {
+    background: rgba(41, 45, 169, 0.64);
+}
+#content>.container>.row>.col-md-4 {
+    padding: 0;
+}
+.col-md-10>input.btn.btn-default:hover {
+    background: rgba(41, 45, 169, 0.64);
+}
+.col-md-10>input.btn.btn-default {
+    border: 0px;
+    border-radius: 0px;
+    background: #CE0C77;
+    color: white;
+    margin-top: 11px;
+    padding: 8px 37px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+h1.has_font {
+    font-size: 24px;
+}
+
+.col-md-4>p {
+    font-size: 13px;
+    padding-left: 15px;
+}
+.col-md-4 {
+    padding: 10px 10px 13px 10px;
+    line-height: 14px;
+    /* border: 1px solid gray; */
+    background: #fff;
+}
+.copyright {
+    float: right;
+    font-size:11px;
+    margin-top: 8px;
+}
+.col-md-2>input.btn.btn-default {
+    border: 0px;
+    border-radius: 0px;
+    background: #CE0C77;
+    color: white;
+    margin-top: 11px;
+    padding: 8px 19px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.col-md-2>input.btn.btn-default:hover {
+    background: rgba(41, 45, 169, 0.64);
+}
+a.btn.btn-default {}
+  img {
+      min-height: 56px;
+      max-width: 236px;
+  }
+a.btn.btn-default {
+    border-radius: 0px;
+    border: 0px;
+    font-weight: bold;
+    padding: 7px 17px;
+    color: #fff;
+    background: #0CCEB3;
+    margin-top: 10px;
+}
+span.txt-black {
+    font-weight: bold;
+}
+.sale-price {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: gray;
+}
+
+.txt-size-small {
+    color: #4E4646;
+}
+
+.instock {
+    color: #6F6FBF;
+}
+
+.width_40 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.summary-main {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 2px 0px;
+}
+
+.btn-checkout-text {
+    border-radius: 0px;
+    border: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+tbody>tr {
+    border-bottom: 1px solid #CCCCCC;
+}
+.col.txt-black {
+    font-weight: bold;
+    font-size: 20px;
+}
+a.btn.btn-default:hover {
+     background: rgba(31, 160, 160, 0.38);
+}
+div#page {
+    overflow: hidden;
+}
+#footer>.container>.row>.col-md-4 {
+    background: #ECECEC;
+    padding: 0px;
+}
+.width_20 img {
+    padding: 10px;
+}
+.content {
+    padding: 0px 20px 20px;
+}
+.mbm.txt-light-black {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
