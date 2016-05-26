@@ -1,0 +1,104 @@
+a:link, a:active{
+	text-decoration: none;
+	color: #170B6F;
+}
+a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+a:visited{
+	color: #4D4390;
+}
+
+/*==========      BODY     ==========*/
+body{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 14px;
+	z-index: 0;
+}
+#contain{
+	background: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+#form{
+	position: absolute;
+	/* top: calc(50% - 75px); */
+	left: calc(50% - 186px);
+	height: 150px;
+	width: 350px;
+	z-index: 2;
+	margin: 0 auto;
+}
+/*==========      HEADER     ==========*/
+header{
+	height: 170px;
+}
+
+/*==========      SECTION     ==========*/
+section.qp-wrapper{
+	width: 390px;
+	margin: 0 auto;
+}
+section.qp-wrapper p{
+	color:red;
+}
+section.qp-wrapper form label{display: block;margin: 0px 0px 10px 0px;overflow: hidden;}
+section.qp-wrapper form label p{
+    width: 104px;
+    float: left;
+    margin: 7px 0px 0px 30px;
+    color: #B3B2B2;
+}
+section.qp-wrapper form label input{
+    width: 195px;
+    padding: 5px 0px;
+}
+section.qp-wrapper form fieldset legend{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 8px;
+	color: #001BFF;
+}
+section.qp-wrapper form section{
+	text-align: right;
+}
+section.qp-wrapper form section input{
+	width: 95px;
+	background: linear-gradient(red,blue);/* Green */
+	border: none;
+	color: white;
+	padding: 9px 0px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 33px;
+	margin-left: -27px;
+}
+section.qp-wrapper form nav ul{list-style: none;text-align: right;margin-right: 37px;}
+section.qp-wrapper form nav ul li{display: inline;padding: 2px;}
+section.qp-wrapper form ul.error{list-style: none;text-align: left;color: red;       display: none;  margin-left: -10px;}
+section.qp-wrapper form ul.error li{}
+
+
+
+
+/*==========      FOOTER     ==========*/
+footer{
+	width: 390px;
+	margin: 0 auto;
+	text-align: right;
+	color: #1B187B;
+}
