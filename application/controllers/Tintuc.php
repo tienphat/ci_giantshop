@@ -34,7 +34,7 @@ class Tintuc extends CI_Controller {
 
         $this->data['list'] = $this->Mcontent->content_tintuc($catid, $limit, $first);
         $this->data['view'] = 'default';
-        $this->load->view('frontend/index', $this->data);
+        $this->load->view('index', $this->data);
     }
 
     public function detail() {

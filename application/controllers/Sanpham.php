@@ -33,7 +33,7 @@ class Sanpham extends CI_Controller {
 
         $this->data['list'] = $this->Mproduct->product_all($limit, $first);
         $this->data['view'] = 'default';
-        $this->load->view('frontend/index', $this->data);
+        $this->load->view('index', $this->data);
     }
 
     public function search_product() {

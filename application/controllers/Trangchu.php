@@ -23,7 +23,7 @@ class Trangchu extends CI_Controller {
         $limit = 12;
         $this->data['list'] = $this->Mproduct->product_home($limit);
         $this->data['view'] = 'default';
-        $this->load->view('frontend/index', $this->data);
+        $this->load->view('index', $this->data);
     }
 
     public function signup_email() {

@@ -4,7 +4,7 @@
             <div class="col-md-5 col-sm-6 col-xs-6">
                 <div class="row">
                     Chào mừng bạn đến với <a href="<?php echo CI_BASE_URL; ?>">GiantShop</a><span></span>  |
-                    HOTLINE: <span>(04)967 085 852</span>
+                    HOTLINE: <span>(+84)967 085 852</span>
                 </div>
             </div>
             <div class="col-md-7 col-sm-6 col-xs-6">

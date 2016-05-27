@@ -32,6 +32,6 @@ class Lienhe extends CI_Controller {
 		}
 
 		$this->data['view'] = 'default';
-		$this->load->view('frontend/index', $this->data);
+		$this->load->view('index', $this->data);
 	}
 }

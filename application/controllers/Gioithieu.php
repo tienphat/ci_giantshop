@@ -17,6 +17,6 @@ class Gioithieu extends CI_Controller {
 		$catid = $this->Mcategory->category_id($catlink);
 		$this->data['row'] = $this->Mcontent->content_gioithieu($catid);
 		$this->data['view'] = 'default';
-		$this->load->view('frontend/index', $this->data);
+		$this->load->view('index', $this->data);
 	}
 }

@@ -1,3 +1,4 @@
+
 function dat_mua(id) {
     if ($(".name").text() == "") {
         alert("Vui lòng đăng nhập trước khi mua hàng!");
@@ -18,7 +19,15 @@ function dat_mua(id) {
     }
 
 }
-$(function () {
+$(function(){
+    var url = window.location.pathname;
+    url = url.split("/");
+    if(url.slice(-1).pop() != "trang-chu"){
+        $(".slideshow").hide();
+    }
+    if(url.slice(-1).pop() != ""){
+        $(".slideshow").hide();
+    }
     $('#search_product').keypress(function (e) {
         var key = e.which;
         if (key == 13)  // the enter key code
