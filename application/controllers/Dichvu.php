@@ -19,7 +19,7 @@ class Dichvu extends CI_Controller {
         $catid = $this->Mcategory->category_id($catlink);
 
         $this->load->library('pagination');
-        //Phan trang
+//Phan trang
         $config['base_url'] = base_url('/dich-vu');
         $config['total_rows'] = $this->Mcontent->content_count($catid);
         $config['per_page'] = 5;
@@ -30,7 +30,7 @@ class Dichvu extends CI_Controller {
 
         $this->data['links'] = $this->pagination->create_links();
 
-        //Day du lieu ra view
+//Day du lieu ra view
 
         $this->data['list'] = $this->Mcontent->content_dichvu($catid, $limit, $first);
         $this->data['view'] = 'default';

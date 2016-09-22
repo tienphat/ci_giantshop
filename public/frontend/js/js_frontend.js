@@ -19,6 +19,7 @@ function dat_mua(id) {
 
 }
 
+
 $('#search_product').keypress(function (e) {
     var key = e.which;
     if (key == 13)  // the enter key code
@@ -117,4 +118,3 @@ $(".btnLogin").click(function () {
     }
 
 });
-

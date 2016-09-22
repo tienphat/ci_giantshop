@@ -38,7 +38,6 @@
                         <li><a href="<?php echo CI_BASE_URL; ?>tin-tuc">Tin tức</a></li>
 
                         <li><a href="<?php echo CI_BASE_URL; ?>lien-he">Liên hệ</a></li>
-
                     </ul>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
     <head>
         <meta charset="utf-8">
         <base href="<?php echo CI_BASE_URL; ?>">
@@ -15,14 +14,12 @@
         <link href="<?php echo CI_BASE_URL; ?>public/frontend/css/template.css" rel="stylesheet">
         <link href="<?php echo CI_BASE_URL; ?>public/frontend/css/font-awesome.min.css" rel="stylesheet">
         <!-- jQuery -->
-        <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/jquery.js"></script>
+        <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/js_frontend.js"></script>
+        <!--<script src="<?php echo CI_BASE_URL; ?>public/frontend/js/jquery.min.js"></script>-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/jquery2.js"></script>
-        <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/jq.js"></script>
-        
         <!-- Bootstrap JavaScript -->
         <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/bootstrap.js"></script>
-
-
     </head>
     <body>
         <!-- Header -->
@@ -41,7 +38,7 @@
         </div>
 
         <!-- Slideshow -->
-        <div class="slideshow hideSlide">
+        <div class="slideshow">
             <?php $this->load->view('frontend/modules/slideshow') ?>
         </div>
 
@@ -79,11 +76,6 @@
                 </div>
             </div>
         </div>
-        
-        
-        <script type="text/javascript">
-            var SITE_ROOT = '<?php echo CI_BASE_URL; ?>';
-        </script>
-        <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/js_frontend.js"></script>
+
     </body>
 </html>
