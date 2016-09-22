@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
     <head>
         <meta charset="utf-8">
         <base href="<?php echo CI_BASE_URL; ?>">

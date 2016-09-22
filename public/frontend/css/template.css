@@ -17,7 +17,7 @@ body{
     z-index: 999;
 }
 .hideSlide{
-  display: none;
+  /* display: none; */
 }
 .content_dichvu, .content_tintuc {
     padding: 14px;
