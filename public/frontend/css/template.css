@@ -16,13 +16,13 @@ body{
     right: 9%;
     z-index: 999;
 }
+.hideSlide{
+  display: none;
+}
 .content_dichvu, .content_tintuc {
     padding: 14px;
     text-align: justify;
 }
-/*.hideSlide{
-    display: none;
-}*/
 .bg_hidden>button.dat_mua:hover {
     background: rgba(255, 55, 212, 0.81);
 }

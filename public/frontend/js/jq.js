@@ -1,9 +1,13 @@
 
 $(function(){
-    var url = window.location.pathname; 
+    var url = window.location.pathname;
     url = url.split("/");
-    if(url[2] != "" && url[2] != "trang-chu"){
-        $(".slideshow").addClass("hideSlide");
+
+    if(url[1] == "trang-chu"){
+        $(".slideshow").removeClass("hideSlide");
     }
-    
+    if(url[1] == ""){
+        $(".slideshow").removeClass("hideSlide");
+    }
+
 });

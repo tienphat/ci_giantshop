@@ -1,5 +1,3 @@
-var url = window.location.url();
-alert(url);
 function dat_mua(id) {
     if ($(".name").text() == "") {
         alert("Vui lòng đăng nhập trước khi mua hàng!");

@@ -14,10 +14,8 @@
 		<link href="<?php echo CI_BASE_URL; ?>public/frontend/css/template.css" rel="stylesheet">
 		<link href="<?php echo CI_BASE_URL; ?>public/frontend/css/font-awesome.min.css" rel="stylesheet">
 		<!-- jQuery -->
-                <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/jquery.js"></script>
+		<script src="<?php echo CI_BASE_URL; ?>public/frontend/js/jquery.js"></script>
 		<script src="<?php echo CI_BASE_URL; ?>public/frontend/js/jquery2.js"></script>
-                <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/jq.js"></script>
-                <script src="<?php echo CI_BASE_URL; ?>public/frontend/js/js_frontend.js"></script>
 		<!-- Bootstrap JavaScript -->
 		<script src="<?php echo CI_BASE_URL; ?>public/frontend/js/bootstrap.js"></script>
 
@@ -39,7 +37,7 @@
 		</div>
 
 		<!-- Slideshow -->
-		<div class="slideshow hideSlide">
+		<div class="slideshow">
 				<?php $this->load->view('frontend/modules/slideshow') ?>
 		</div>
 

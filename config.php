@@ -1,4 +1,4 @@
 <?php
 
-	define('CI_BASE_URL', 'http://demo.com:81/');
+	define('CI_BASE_URL', 'http://giantshop.com:81/');
  ?>
