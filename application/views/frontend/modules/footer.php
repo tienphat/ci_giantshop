@@ -3,10 +3,10 @@
         <div class='row'>
             <div class="col-md-8">
                 <div class="subcribe-get-info">
-                    <h2>Send email</h2>
+                    <h2>Gửi email</h2>
                     <div class="form-subcribe">
                         <input type="email" name="emailSubcribe" class="enter-email" placeholder="Email nhận tin">
-                        <button type="submit" name="button" class="gui_email_nhan_tin">Send</button>
+                        <button type="submit" name="button" class="gui_email_nhan_tin">Gửi</button>
                     </div>
                 </div>
             </div>
@@ -28,16 +28,16 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-lg-3 col-md-3">
                 <div class="footer-mid-menu">
-                    <h2>About us</h2>
+                    <h2>Về chúng tôi</h2>
                     <ul>
 
-                        <li><a href="<?php echo CI_BASE_URL; ?>">Home</a></li>
+                        <li><a href="<?php echo CI_BASE_URL; ?>">Trang chủ</a></li>
 
-                        <li><a href="<?php echo CI_BASE_URL; ?>gioi-thieu">Instruction</a></li>
+                        <li><a href="<?php echo CI_BASE_URL; ?>gioi-thieu">Giới thiệu</a></li>
 
-                        <li><a href="<?php echo CI_BASE_URL; ?>tin-tuc">News</a></li>
+                        <li><a href="<?php echo CI_BASE_URL; ?>tin-tuc">Tin tức</a></li>
 
-                        <li><a href="<?php echo CI_BASE_URL; ?>lien-he">Contacṭ</a></li>
+                        <li><a href="<?php echo CI_BASE_URL; ?>lien-he">Liên hệ</a></li>
 
                     </ul>
                 </div>
